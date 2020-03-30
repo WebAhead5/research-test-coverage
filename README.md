@@ -58,6 +58,13 @@ Which gives us the following:
 
 ![coverage terminal result](https://i.imgur.com/54NAIBT.png)
 
+(FYI, the below expands on the tabulated items:
+* Statements: How many of the statements in you code are executed.
+* Branches: Conditional statements create branches of code which may not be executed (e.g. if/else). This metric tells you how many of your branches have been executed.
+* Functions: The proportion of the functions you have defined which have been called.
+* Lines: The proportion of lines of code which have been executed.
+)
+
 Or, if we change the text in our package.json file, we can also get the following:
 
 ```
