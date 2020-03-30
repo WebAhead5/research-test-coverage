@@ -64,9 +64,10 @@ Or, if we change the text in our package.json file, we can also get the followin
     "coverage":  "nyc --reporter=lcov --reporter=text npm test"
 ```
 
-This [webpage](https://istanbul.js.org/docs/advanced/alternative-reporters/) provides more details on the different viewing options:
 
 ![nyc terminal result](https://i.imgur.com/LOyGn06.png)
+
+This [webpage](https://istanbul.js.org/docs/advanced/alternative-reporters/) provides more details on the different viewing options:
 
 It also adds a coverage directory to our app:
 
